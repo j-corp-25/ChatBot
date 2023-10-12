@@ -8,10 +8,17 @@ intents:
   - mood_great
   - mood_unhappy
   - bot_challenge
+  - helpful
 
 responses:
+  utter_follow_up:
+  - text: "Do you need any more assistance?"
+
+  utter_helpful:
+  - text: "You can search a ticker on the upper left corner of the page"
+
   utter_greet:
-  - text: "Hey! How are you?"
+  - text: "Hey! How can I help"
 
   utter_cheer_up:
   - text: "Here is something to cheer you up:"
@@ -22,6 +29,7 @@ responses:
 
   utter_happy:
   - text: "Great, carry on!"
+  - text: "Glad that was helpful"
 
   utter_goodbye:
   - text: "Bye"

@@ -16,6 +16,8 @@ nlu:
     - goodmorning
     - goodevening
     - good afternoon
+    - whats up
+    - how are you
 
 - intent: goodbye
   examples: |
@@ -89,3 +91,7 @@ nlu:
     - are you a human?
     - am I talking to a bot?
     - am I talking to a human?
+
+- intent: helpful
+  examples: |
+    - How do I do this?

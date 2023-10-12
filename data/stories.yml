@@ -28,3 +28,11 @@ stories:
   - action: utter_did_that_help
   - intent: deny
   - action: utter_goodbye
+
+- story: helpful path 1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - action: utter_did_that_help
+  - action: utter_happy
+  - action: utter_follow_up
